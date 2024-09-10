@@ -9,7 +9,7 @@ from openpyxl.styles import Font, PatternFill
 main_folder = "/Users/david/Desktop/Bilder_Protokoll"
 
 # Muster zur Erkennung der Agentur im Dateinamen
-agency_pattern = re.compile(r"(Reuter|dpa|IMAGO|ddp)", re.IGNORECASE)
+agency_pattern = re.compile(r"(Reuter|dpa|IMAGO|ddp|360°|action press|AFP|Getty|epa)", re.IGNORECASE)
 
 # Dictionary, um für jede Agentur eine separate Workbook-Instanz zu speichern
 agency_workbooks = {}
